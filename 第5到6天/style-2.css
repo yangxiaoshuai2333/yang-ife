@@ -1,0 +1,27 @@
+header{
+    width: 200px;
+    height: 730px;
+    background-color:#31b0d5;
+    margin-right: 10px;
+    float: left;
+}
+main{
+    float: left;
+}
+h1{
+
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    color: white;
+}
+p span{
+    padding-right: 30px;
+}
+h5{
+    padding-bottom: 5px;
+    margin: 0 ;
+}
+div p{
+    margin-top: 0;
+}
