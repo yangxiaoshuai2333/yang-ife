@@ -43,7 +43,7 @@ ul li a{
     color: white;
 }
 #header ul li{
-    float: right;
+    float: left;
 }
 #banner{
     position: relative;
