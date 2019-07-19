@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ife11</title>
+    <link rel="stylesheet" href="web-ex.css">
+</head>
+<body>
+<header>
+    <div id="header">
+        <h1 class="white">Hello World</h1>
+        <p class="introduce"> each element in the document tree generates zero or more boxes according to the box model. The layout of these boxes is governed by:</p>
+        <form method="post">
+            <h4 class="white">CREATE YOUR ACCOUNT</h4>
+            <p>it's absolutely free</p>
+            <div class="sign-up">
+                <input type="email" id="account" placeholder="input your email">
+                <input type="password" id="password" placeholder="create your password">
+                <button type="submit" id="sign">SIGN UP</button>
+            </div>
+        </form>
+    </div>
+
+</header>
+<div id="nav">
+    <div class="nav-title">
+        <p>BOATLOAD OF AWESOME</p>
+        <h1>Ready-made,Customizable,HTML lading page sections</h1>
+    </div>
+    <div>
+        <div class="nav-top">
+            <div class="nav-flex"><!--把图片设为背景，然后设置padding-left-->
+                <a class="mobile" href="#"></a>
+                <div>
+                    <h3 class="nav-pre-title">Mobile First</h3>
+                    <p class="nav-text">all modulz are built mobile-first for maximum device compatibility</p>
+                </div>
+            </div>
+            <div class="nav-flex">
+                <a class="access" href="#"></a>
+                <div>
+                    <h3 class="nav-pre-title">Accessibility</h3>
+                    <p class="nav-text">Support for IE8 mobile ande tablet devices. screenreaders and color blind</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <div class="nav-flex">
+                <a class="fluid" ></a>
+                <div>
+                    <h3 class="nav-pre-title">Fluid Typography</h3>
+                    <p class="nav-text">On different screen sizes fonts automagically scale with the viewport</p>
+                </div>
+            </div>
+            <div class="nav-flex">
+                <a class="custom" ></a>
+                <div>
+                    <h3 class="nav-pre-title">Customization</h3>
+                    <p class="nav-text">Make any design your own using the style editor.personalize fonts colors and layouts to create the custom look you want</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--这部分没看明白设计图，待定，反正也是基本布局-->
+<div id="banner">
+    <div class="banner"></div>
+</div>
+
+<main>
+    <div role="main-product" class="main-product">
+        <div id="product-header">
+            <div class="main-title">
+                <p>Try Our Awesome Products</p>
+            </div>
+            <div class="main-product-flex">
+                <div class="flex-text">
+                    <img src="img/前端学院设计图/Singleton.png">
+                     <p>Awesome - VS Code will have deep remote development: you can connect to a container running a different OS and be able to use any VS Code plugins/linting/debugging for that environment</p>
+                </div>
+                <div class="flex-text">
+                    <img src="img/前端学院设计图/Hero.png">
+                    <p>Awesome - VS Code will have deep remote development: you can connect to a container running a different OS and be able to use any VS Code plugins/linting/debugging for that environment</p>
+                </div>
+                <div class="flex-text">
+                    <img src="img/前端学院设计图/Portland.png">
+                    <p>Awesome - VS Code will have deep remote development: you can connect to a container running a different OS and be able to use any VS Code plugins/linting/debugging for that environment</p>
+                </div>
+            </div>
+        </div>
+        <div id="product-img">
+            <div id="top-img">
+                <img src="img/前端学院设计图/Photo1.png">
+                <div class="img-text right-text">
+                    <h4>Learn How To Improve Your Personal Business</h4>
+                    <p>Awesome - VS Code will have deep remote development: you can connect to a container running a different OS and be able to use any VS Code plugins/linting/debugging for that environment.</p>
+                </div>
+            </div>
+            <div id="bottom-img">
+                <div class="img-text left-text">
+                    <h4>Choose Between Two Beautifully Designed Color Schemes</h4>
+                    <p>Awesome - VS Code will have deep remote development: you can connect to a container running a different OS and be able to use any VS Code plugins/linting/debugging for that environment.</p>
+                </div>
+                <img src="img/前端学院设计图/Photo2.png">
+            </div>
+        </div>
+    </div>
+    <div role="main-crew" id="main-crew">
+        <div id="crew-header">
+            <div class="main-title">
+                <p>Our Awesome Crew</p>
+            </div>
+            <div class="main-title-bottom">
+                <p>Our unique online teaching style makes learning easy for everyone.Whatever you are trying to land a new job.brush up on your skills</p>
+            </div>
+        </div>
+        <!--flex弹性布局-->
+        <div role="crew-img">
+            <div class="crew-flex">
+                <div class="main-crew-flex">
+                    <img src="img/前端学院设计图/张思远大.png">
+                    <a href="#">
+                        <div class="crew-cover">
+                            <h3>Ethan Dutton</h3>
+                            <p>Senior Visual Designer</p>
+                            <div class="cover-img"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-crew-flex">
+                    <img src="img/前端学院设计图/Userpic%202.png">
+                    <div></div>
+                </div>
+            </div>
+            <div class="crew-flex">
+                <div class="main-crew-flex">
+                    <img src="img/前端学院设计图/Userpic%203.png">
+                    <div></div>
+                </div>
+                <div class="main-crew-flex">
+                    <img src="img/前端学院设计图/Userpic%204.png">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div role="main-bottom" class="crew-flex">
+        <form class="main-bottom-flex" method="post">
+            <h4>FELL FREE TO WRITE US</h4>
+            <input type="email" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message" rows="7"></textarea>
+            <button type="button">Send</button>
+        </form>
+        <div class="main-bottom-flex">
+            <div class="main-bottom-content">
+                <h1>Contact</h1>
+                <p>make any design your own using the Style Editor Personalize fonts colors and layouts to create the custom look you want</p>
+                <div class="contact">
+                    <ul>
+                        <li class="map">360 King Street<br>
+                            Feastrvale Trevose.PA 19057</li>
+                        <li class="phone"> (755)564-84-12</li>
+                        <li class="mail">youname@mail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div id="footer">
+        <ul>
+            <!--需要优化一下选择器，为什么选不中第一个li呢-->
+            <li style="color: white">LEARN MORE</li>
+            <li><a href="#">How it work?</a></li>
+            <li><a>Meeting tools</a></li>
+            <li><a>Live streaming</a></li>
+            <li><a>Contact method</a></li>
+        </ul>
+        <ul>
+            <li style="color: white">ABOUT US</li>
+            <li><a>About us</a></li>
+            <li><a>Feature</a></li>
+            <li><a>Privacy police</a></li>
+            <li><a>Terms & Conditions</a></li>
+        </ul>
+        <ul>
+            <li style="color: white">SUPPORT</li>
+            <li><a>F A Q</a></li>
+            <li><a>Contact us</a></li>
+            <li><a>Live chat</a></li>
+            <li><a>Phone call</a></li>
+        </ul>
+        <div id="footer-icon">
+            <div>
+                ENJOY YOUR LIFE
+            </div>
+            <div>
+                Great Web UI kit for designers
+                freelancers or business
+            </div>
+            <div>
+                <img src="img/前端学院设计图/Socials%20Buttons.png">
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

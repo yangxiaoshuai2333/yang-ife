@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 0.5);
+}
+header{
+    width: 100%;
+    height: 850px;
+    background : url("img/前端学院设计图/Background.png") no-repeat ;
+
+}
+#header{
+    width: 900px;
+    margin: 0 auto;
+    padding: 200px 0;
+    text-align: center;
+}
+.white{
+    color: white;
+}
+.introduce{
+    width: 600px;
+    padding: 40px 150px;
+    text-align: center;
+    color: rgba(204, 204, 204, 0.5);
+}
+form{
+    margin: auto;
+    padding: 40px;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #cccccc;
+}
+form p{
+    padding: 30px 0;
+    color: rgba(204,204,204,0.5);
+}
+input{
+    padding-left: 20px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    height: 40px;
+    width: 220px;
+    color: white;
+    background: inherit;
+}
+.sign-up{
+    padding: 30px 0;
+}
+button{
+    width:100px ;
+    height: 40px;
+}
+/*
+这是4个带图标部分的CSS
+*/
+#nav{
+    width: 900px;
+    margin: 0 auto;
+}
+.nav-title{
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.nav-title p{
+    padding-bottom: 30px;
+}
+.nav-title h1{
+    padding: 0 150px;
+}
+.nav-top,.nav-bottom{
+    display: flex;
+    padding:20px;
+}
+.nav-flex{
+    display: flex;
+    flex: 1;
+    padding: 20px 0;
+}
+.nav-flex > a {
+    flex: 0;
+    min-width: 60px;
+}
+.mobile{
+    background: url("img/前端学院设计图/Iphone Icon.png") no-repeat center center;
+
+}
+.access{
+    background: url("img/前端学院设计图/Check Icon.png") no-repeat center center ;
+}
+.fluid{
+    background: url("img/前端学院设计图/Pencil Icon.png") no-repeat center center;
+}
+.custom{
+    background: url("img/前端学院设计图/Settings Icon.png") no-repeat center center;
+}
+
+.nav-flex>div{
+    padding: 0 20px;
+}
+.nav-pre-title{
+    padding: 10px 0;
+}
+.nav-text{
+    color: rgba(0,0,0,0.7);
+}
+#banner{
+    width: 100%;
+    height: 600px;
+    background: url("img/前端学院设计图/图层 2.png");
+}
+
+.banner{
+    width: 900px;
+}
+/*
+正文部分
+*/
+main{
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.main-product{
+    padding: 20px 0;
+    margin: 0 auto;
+}
+#product-header{
+    padding-bottom: 50px;
+}
+.main-title{
+    margin: 0px auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    opacity: 0.8;
+}
+.main-product-flex{
+    display: flex;
+    padding: 30px 0;
+}
+.flex-text{
+    flex: 1;
+    text-align: center;
+}
+.flex-text img{
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex-text p{
+    padding:  20px;
+    color: rgba(0,0,0,0.6);
+}
+/*
+TODO 记得把文字颜色提取出来，用透明度
+*/
+#product-img{
+    padding: 40px 0;
+}
+#product-img p{
+    padding: 20px 0;
+    color: rgba(0,0,0,0.6);
+}
+#product-img img{
+    width: 500px;
+    height: 300px;
+}
+#top-img,#bottom-img{
+    position: relative;
+    padding: 20px 0;
+}
+.img-text{
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+.left-text{
+    position: absolute;
+    left:0;
+    top: 60px;
+}
+.right-text{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+#bottom-img>img{
+    margin-left: 400px;
+}
+
+#main-crew{
+    padding: 20px 0;
+}
+.main-title-bottom{
+    width: 600px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+.crew-flex{
+    display: flex;
+}
+.main-crew-flex{
+    flex: 1;
+    position: relative;
+    padding: 10px;
+    max-width: 400px;
+}
+.crew-cover{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 470px;
+    height: 340px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    opacity: 0;
+}
+.cover-img{
+    margin: auto;
+    padding: 40px 0;
+    width: 213px;
+    height: 55px;
+    background: no-repeat url("img/前端学院设计图/Social Buttons.png");
+}
+.crew-cover > h3{
+    padding: 70px 0 10px 0;
+    color: rgba(255,255,255,0.9);
+}
+.crew-cover > p{
+    padding: 10px 0 40px 0;
+    color: rgba(255,255,255,0.6);
+}
+.main-crew-flex a:hover .crew-cover{
+    opacity: 1;
+}
+
+form{
+    height: 100%;
+    text-align: center;
+}
+.main-bottom-flex{
+    flex: 1;
+    padding: 30px;
+}
+
+.main-bottom-flex > input,
+.main-bottom-flex > button,
+.main-bottom-flex > textarea{
+    margin: 20px 45px;
+    width: 300px;
+}
+.main-bottom-flex > h4{
+    margin: 0 auto;
+}
+.main-bottom-flex > textarea{
+    padding-left: 20px;
+}
+.main-bottom-flex > button{
+    background-color: black;
+    color: white;
+}
+.main-bottom-content{
+    margin: 50px 0 50px 50px;
+}
+.main-bottom-content > h1,
+.main-bottom-content > p{
+    padding: 20px 0;
+}
+.main-bottom-content > p{
+    color: rgba(0,0,0,0.7);
+}
+.contact{
+    padding: 40px 0;
+}
+.contact li{
+    padding: 15px 0 15px 30px;
+    text-align: left;
+}
+.map{
+    background: url("img/前端学院设计图/Map Icon.png") no-repeat left ;
+}
+.mail{
+    background: url("img/前端学院设计图/Mail Icon.png") no-repeat left ;
+}
+.phone{
+    background: url("img/前端学院设计图/Phone Icon.png") no-repeat left ;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+#footer{
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    padding: 50px 0 100px 0;
+}
+#footer > ul{
+    flex: 1;
+    margin: 10px;
+}
+#footer > div{
+    flex: 2;
+    margin: 10px;
+}
+#footer > ul > li {
+    padding: 10px 0;
+    height: 30px;
+}
+#footer > ul > li > a{
+    height: 30px;
+    line-height: 30px;
+}
+#footer-icon div:first-child{
+    color: white;
+}
+#footer-icon div{
+    margin: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgba(204,204,204, 0.5);
+}
